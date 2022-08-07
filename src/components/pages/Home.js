@@ -9,7 +9,7 @@ const Home = () => {
     }, []);
 
     const loadUsers = async () => {
-        const result = await axios.get('/users');
+        const result = await axios.get('https://react-crup-application.vercel.app/users');
         setUser(result.data.reverse());
     }
     const deleteUser = async id => {
