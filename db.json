@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "name": "Soumen Rakshit",
+      "username": "Soumen",
+      "email": "rakshitsoumen4@gmail.com",
+      "phone": "9775521574",
+      "website": "soumen.com",
+      "id": 1
+    },
+    {
+      "name": "neha goswami",
+      "username": "admin",
+      "email": "rajrakshit23@gmail.com",
+      "phone": "09547897807",
+      "website": "soumen.com",
+      "id": 2
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "name": "neha goswami",
+      "message": "admin"
+    },
+    {
+      "name": "Soumen Rakshitgdgdg",
+      "message": "ggg",
+      "id": 2
+    },
+    {
+      "name": "neha goswamiff",
+      "message": "fgdgf",
+      "id": 3
+    }
+  ]
+}
