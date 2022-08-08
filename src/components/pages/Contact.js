@@ -17,7 +17,7 @@ const Contact = () => {
     }
     const onSubmit = async e =>{
         e.preventDefault()
-        await axios.post('https://react-crup-application.vercel.app/messages',user);
+        await axios.post('https://react-crup-application-rnk39s0qu-soumen/messages',user);
     }
     return (
         <div className="container">
