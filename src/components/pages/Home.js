@@ -9,7 +9,7 @@ const Home = () => {
     }, []);
 
     const loadUsers = async () => {
-        const result = await axios.get('https://badsha45.000webhostapp.com/db.json/users');
+        const result = await axios.get('https://react-crup-application-rnk39s0qu-soumen/users');
         setUser(result.data.reverse());
     }
     const deleteUser = async id => {
