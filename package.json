@@ -18,6 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "proxy": "https://badsha45.000webhostapp.com/db.json",
     "json-server": "json-server --watch db.json --port 3003",
     "start:dev": "concurrently \"npm start\" \"npm run json-server\"",
     "build": "react-scripts build",
