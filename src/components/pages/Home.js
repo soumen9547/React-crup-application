@@ -9,11 +9,11 @@ const Home = () => {
     }, []);
 
     const loadUsers = async () => {
-        const result = await axios.get('https://react-crup-application-rnk39s0qu-soumen/users');
+        const result = await axios.get('http://localhost:3003/users');
         setUser(result.data.reverse());
     }
     const deleteUser = async id => {
-        const result = await axios.delete(`https://react-crup-application.vercel.app/users/${id}`);
+        const result = await axios.delete(`http://localhost:3003/users/${id}`);
         loadUsers();
     }
     return (

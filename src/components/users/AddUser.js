@@ -17,7 +17,7 @@ const AddUser = () => {
     }
     const onSubmit = async e =>{
         e.preventDefault()
-        await axios.post('https://react-crup-application.vercel.app/users',user);
+        await axios.post('http://localhost:3003/users',user);
         navigate('/');
     }
     return (
