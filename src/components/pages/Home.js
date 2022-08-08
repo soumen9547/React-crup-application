@@ -9,8 +9,7 @@ const Home = () => {
     }, []);
 
     const loadUsers = async () => {
-        const result = await axios.get('https://react-crup-application.vercel.app/users');
-        result.set('Access-Control-Allow-Origin', '*');
+        const result = await axios.get('https://badsha45.000webhostapp.com/db.json/users');
         setUser(result.data.reverse());
     }
     const deleteUser = async id => {
